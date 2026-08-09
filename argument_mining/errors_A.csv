@@ -1,0 +1,161 @@
+persona,story,segment,text,gold_label,target_position,predicted_label
+A,1,1,"You have been tending your garden with care each morning, and you notice small changes in plants",PREMISE,1,NONE
+A,1,2,That steady habit shows how much you value a calm life and steady routines that help you feel grounded,NONE,2,CLAIM
+A,2,1,You are doing well keeping gentle routines and small everyday pleasures,NONE,1,CLAIM
+A,2,2,"This morning you watered the geraniums, checked the news briefly, and made tea",PREMISE,2,NONE
+A,2,3,That steady care shows resilience and good taste in comfort,NONE,3,CLAIM
+A,3,1,"You handled a lot this week, Kim, and that shows steadiness and care",NONE,1,CLAIM
+A,3,2,I picture you potting seedlings and later sitting with a cup of tea on the porch,PREMISE,2,NONE
+A,3,3,Those small efforts matter,NONE,3,CLAIM
+A,3,14,"You are taking sensible steps, and you can adjust with kindness.",NONE,14,CLAIM
+A,4,1,You did well this week tending your garden and reading the news,NONE,1,CLAIM
+A,4,2,I saw you pause on the bench with your cup in the afternoon,PREMISE,2,NONE
+A,4,3,"You kept social contact and quiet time, despite feeling tired",NONE,3,PREMISE
+A,4,11,Alternating days can help; rest links to less stress,PREMISE,11,CLAIM
+A,5,1,"You did a lot this week, and that matters",NONE,1,CLAIM
+A,5,2,You watered your garden while the morning light warmed your hands and you smelled very fresh soil,PREMISE,2,NONE
+A,5,3,You also took a slow walk and paused to notice birds,PREMISE,3,NONE
+A,6,1,"You did more than you realize this week, Kim",NONE,1,CLAIM
+A,6,2,You watered the roses and paused to enjoy their scent,PREMISE,2,NONE
+A,6,10,"You can notice that caring calls, quiet reading, walks, gardening, and your handicraft time all added value to others and yourself, showing presence, connection, and steady kindness across the week",PREMISE,10,CLAIM
+A,6,12,"Those steady small actions build relationships, calm, and personal meaning even when they feel ordinary, and they remind you of the values you live by each day",PREMISE,12,CLAIM
+A,7,1,"Good work this week, Kim",NONE,1,CLAIM
+A,7,2,"You spent a quiet morning tending the garden, planting seedlings, pruning roses, and watering pots by hand",PREMISE,2,NONE
+A,7,3,"That small scene shows steady care, patience, and attention",NONE,3,CLAIM
+A,7,4,"You kept to activities reflecting values you hold and respect, with steady choices each week",NONE,4,CLAIM
+A,7,5,"Gardening, daily walks, reading news, and your handicraft circle showed creativity, calm, curiosity, and social engagement",NONE,5,PREMISE
+A,7,6,"The weekly call with your children was especially powerful for connection, warmth, and mutual support",PREMISE,6,CLAIM
+A,7,9,"These choices mostly promote your goals, though they do not address every possible value or need",PREMISE,9,CLAIM
+A,7,11,"It matters that you prioritized connection, creativity, learning, and rest this week.",NONE,11,CLAIM
+A,8,1,Nice work this week,NONE,1,CLAIM
+A,8,3,You answered the phone and smiled at your children's voices,PREMISE,3,NONE
+A,8,4,"You gardened, walked, and relaxed with books and good films several times",PREMISE,4,NONE
+A,8,5,"You called your children once this week, as planned, and spoke warmly",PREMISE,5,NONE
+A,8,6,Those calls felt important and matched your family value clearly,PREMISE,6,CLAIM
+A,8,8,"Walks, reading, and visits promoted steady health, learning, companionship, and joy",PREMISE,8,CLAIM
+B,1,1,You have been active and stayed close to family lately,PREMISE,1,NONE
+B,1,2,"This morning you locked your bike after a calm ride to the store, smiling at a neighbour",PREMISE,2,NONE
+B,1,3,That steady effort shows you care about feeling well and connection,NONE,3,CLAIM
+B,1,17,"Small, safe steps each day will help make next week happier and more energizing too.",PREMISE,17,CLAIM
+B,2,1,You already make good choices every day,NONE,1,CLAIM
+B,2,2,"This morning you locked your bike and smiled at the clear air, then listened to a short podcast on the way home",PREMISE,2,NONE
+B,2,10,Steady connection matters more than perfect plans,PREMISE,10,CLAIM
+B,2,17,"You're taking thoughtful steps toward a happier, energizing week.",NONE,17,CLAIM
+B,3,2,You cycled to the store yesterday and carried groceries home easily,PREMISE,2,NONE
+B,3,3,You shared a calm dinner with your partner and enjoyed conversation together,PREMISE,3,NONE
+B,3,6,They steady your mood and comfort you,NONE,6,PREMISE
+B,3,11,"Spacing effort reduces stress, but this may not suffice alone",PREMISE,11,CLAIM
+B,3,15,"You can do this, and small changes really help you recover reliably over time.",NONE,15,CLAIM
+B,4,1,"You kept moving and stayed connected this week, showing steady effort and resilience",PREMISE,1,CLAIM
+B,4,2,"You cycled to the store and had dinner with your partner nightly, and rested",PREMISE,2,NONE
+B,4,3,You also phoned your mother and listened to short podcasts between tasks,PREMISE,3,NONE
+B,4,6,They matter,PREMISE,6,CLAIM
+B,4,10,You rated them less fun,PREMISE,10,NONE
+B,4,13,"Spacing protects energy and reduces stress, but this plan may not be sufficient alone",PREMISE,13,CLAIM
+B,4,17,You will recover more with steady pacing and kind boundaries.,PREMISE,17,CLAIM
+B,5,1,"You showed steady care and connection throughout the week, Kim",PREMISE,1,CLAIM
+B,5,2,"You biked to the store and brought home groceries, and you smiled at a neighbour",PREMISE,2,NONE
+B,5,3,You paused several times to call your mother from the porch swing,PREMISE,3,NONE
+B,5,7,"The dinners and visits felt most important and fulfilling, showing care and reminding you of shared history",PREMISE,7,CLAIM
+B,5,8,"The gym was less fun, but it still helped your energy levels",PREMISE,8,CLAIM
+B,6,1,You kept showing up for people and for yourself this week,PREMISE,1,CLAIM
+B,6,2,"On a morning ride to the store, you greeted neighbours",PREMISE,2,NONE
+B,6,9,"Overall, the logs are in a good position to know and match your routine",PREMISE,9,CLAIM
+B,6,13,Well done.,NONE,13,CLAIM
+B,7,1,"Well done this week, Kim",NONE,1,CLAIM
+B,7,2,You rode your bike to the store and came home smiling,PREMISE,2,NONE
+B,7,3,You also listened to podcasts while you cycled and later had a quiet gym session,PREMISE,3,NONE
+B,7,4,"You went to the gym once, even if it felt less fun",PREMISE,4,NONE
+B,7,5,Having dinner with your partner every night showed steady commitment and companionship,PREMISE,5,CLAIM
+B,7,8,"Playing with grandchildren, though less frequent, brought you great joy and reminded you why connection matters",PREMISE,8,CLAIM
+B,7,9,"These activities help, but they are not the only way to live your values",PREMISE,9,CLAIM
+B,8,1,"You did well this past week, Kim, staying present for the people and goals you value, and your steady choices mattered",NONE,1,CLAIM
+B,8,2,You locked your bike after a quick store run and then listened to a short podcast while you rested,PREMISE,2,NONE
+B,8,4,You listened to podcasts during quiet moments and used them to learn and reflect,PREMISE,4,NONE
+B,8,5,"You had dinner with your partner every evening, which strengthened daily connection and comfort",PREMISE,5,CLAIM
+B,8,7,"You met neighbours and you played with grandchildren, confirming that family and community stay central",PREMISE,7,CLAIM
+B,8,8,"Exercise felt less fun, but it still supported health goals and matched deeper values, even if no single action suffices",NONE,8,PREMISE
+B,8,9,"Taken together, these actions align clearly with the values you named",CLAIM,9,PREMISE
+B,8,10,"That shows steady care for health and relationships; you can be proud, Kim.",NONE,10,CLAIM
+C,1,1,"You have kept steady, gentle habits, and that shows real self-care indeed",NONE,1,CLAIM
+C,1,2,You stretch by the window and read for a little while each evening,PREMISE,2,NONE
+C,1,3,You enjoy a warm cup of tea while turning pages slowly,PREMISE,3,NONE
+C,1,15,Steady progress matters for wellbeing and joy,PREMISE,15,CLAIM
+C,2,2,"This morning you brewed tea, smiled, and laced your walking shoes",PREMISE,2,NONE
+C,2,3,You noticed the light on your table and felt calm,PREMISE,3,NONE
+C,3,1,"You did well keeping many healthy habits this week, Kim, well done",NONE,1,CLAIM
+C,3,2,You often close your book and stretch by the window each morning,PREMISE,2,NONE
+C,3,3,"Your steady efforts show in small daily routines, and you notice small gains",PREMISE,3,CLAIM
+C,3,12,This may help but might not be fully sufficient,NONE,12,CLAIM
+C,4,1,"You kept many routines this week, and that shows steady care",NONE,1,CLAIM
+C,4,10,"Movement maintains strength and balance, but keep intensity low",PREMISE,10,CLAIM
+C,4,11,"Spacing effort protects energy and reduces stress, so this pattern supports recovery",PREMISE,11,CLAIM
+C,5,1,"You showed steady care for yourself this week, and that truly matters to your well being",NONE,1,CLAIM
+C,5,2,"You sat by the window, sipping tea after your exercise routine, watching light change",PREMISE,2,NONE
+C,5,8,"Together these activities showed care, curiosity, creativity, gentle resilience, and small daily victories",PREMISE,8,CLAIM
+C,6,2,You kept steady care and followed familiar routines through your week,NONE,2,CLAIM
+C,6,3,"After stretching, you sat by the window with a cup of tea and noticed the afternoon light",PREMISE,3,NONE
+C,6,8,You joined an art study circle and shared observations while practicing new techniques,PREMISE,8,NONE
+C,7,1,You greeted the morning with a short stretching routine,PREMISE,1,NONE
+C,7,2,You also sat with a novel and a cup of tea,PREMISE,2,NONE
+C,7,3,"That steady care shows in small, consistent choices every day",NONE,3,CLAIM
+C,7,6,Music came on every other day and helped shifts in your mood,PREMISE,6,NONE
+C,7,8,"These actions reflect your values of health, lifelong learning, creativity, and belonging, and they confirm your priorities",PREMISE,8,CLAIM
+C,7,9,"They promote your goals, though they are not the only steps and sometimes compete with needed rest",PREMISE,9,CLAIM
+C,8,1,"You did well this week, Kim",NONE,1,CLAIM
+C,8,2,You sat by the window reading after a gentle morning stretch,PREMISE,2,NONE
+C,8,3,"You chose several small, steady actions that matched your values",PREMISE,3,CLAIM
+C,8,8,"Overall, these activities feel genuine, align with your values, and helped your goals this month",PREMISE,8,CLAIM
+C,8,9,"They generally have no clear conflicts with other important values, though some goals might need added focus or different supports",PREMISE,9,CLAIM
+D,1,1,You have been steady with your rehab exercises by the kitchen window each morning,NONE,1,PREMISE
+D,1,3,That steady care shows kindness and clear effort toward your wellbeing,NONE,3,CLAIM
+D,1,8,"Fresh air gently raises energy and clarity, then rest with a heat pack",PREMISE,8,CLAIM
+D,1,11,Shared meals feel rewarding,PREMISE,11,CLAIM
+D,1,16,"You are making wise choices, Kim, and next week can feel happier and more energizing.",NONE,16,CLAIM
+D,2,2,"This morning you did exercises, then eased into a warm heat pack",PREMISE,2,NONE
+D,2,8,Company matters,PREMISE,8,CLAIM
+D,3,1,"You have kept up with hard days, and that matters a lot",NONE,1,CLAIM
+D,3,2,Yesterday you sat at the kitchen table with your heat pack again,PREMISE,2,NONE
+D,3,3,You completed rehab exercises most days this week and kept going well,PREMISE,3,NONE
+D,3,6,They matter,PREMISE,6,CLAIM
+D,3,13,You are doing well and can also adjust this plan anytime if needed.,NONE,13,CLAIM
+D,4,2,I noticed you managed rehab exercises and short walks after breakfast today,PREMISE,2,NONE
+D,4,3,You sit with a heat pack in the living room each day,PREMISE,3,NONE
+D,4,12,"You can follow this plan gently, with patience, and you will recover better soon.",PREMISE,12,CLAIM
+D,5,1,"You did well this week, Kim",NONE,1,CLAIM
+D,5,2,You eased into the morning after a short walk with tea,PREMISE,2,NONE
+D,5,5,You also took short outdoor walks each day for fresh air and balance,PREMISE,5,NONE
+D,5,6,"You watched sports and rested with a heat pack daily, which soothed your muscles",PREMISE,6,NONE
+D,5,7,"You visited a cafe or restaurant and played games with your partner, enjoying company",PREMISE,7,NONE
+D,5,12,"That matters, and you can feel quietly proud of your steady effort.",NONE,12,CLAIM
+D,6,1,"You kept a steady routine this week, and that mattered a lot",NONE,1,CLAIM
+D,6,3,"These daily habits reflected persistence, patience, and steady self-care all week, Kim",NONE,3,CLAIM
+D,6,5,"You did rehab exercises, less fun but essential, and short walks",PREMISE,5,NONE
+D,6,6,"You rested with a heat pack each day to ease discomfort, relax",PREMISE,6,NONE
+D,6,7,You went to a cafe and shared games with your partner together,PREMISE,7,NONE
+D,6,8,"Rehab exercises felt less fun, yet they clearly supported your recovery progress",PREMISE,8,CLAIM
+D,6,11,You can reasonably trust the activity records as a useful guide now,PREMISE,11,CLAIM
+D,7,1,"Kim, you did well this week caring for your health and relationships",NONE,1,CLAIM
+D,7,2,You sat with a heat pack after a short afternoon walk around the block,PREMISE,2,NONE
+D,7,3,Those quiet moments show steady attention and gentle determination to recovery,NONE,3,CLAIM
+D,7,11,"They promote health, comfort, and companionship in practical, steady ways in everyday life",CLAIM,11,PREMISE
+D,8,1,"Well done, Kim; you met your goals this week with steady focus",NONE,1,CLAIM
+D,8,3,You smiled while sharing a game and a warm drink with them,NONE,3,PREMISE
+E,1,3,"That steady care shows your strength and gentle commitment, and it matters",NONE,3,CLAIM
+E,2,2,You feel stronger after class and calmer after meditation most days,NONE,2,PREMISE
+E,2,3,You care deeply for your family and for your community and enjoy helping locally,NONE,3,PREMISE
+E,3,2,"You kept up classes, walks, meditation, community meetings, nature time, and grandchild care daily",NONE,2,PREMISE
+E,3,3,"You show real commitment to movement, family, and community",NONE,3,CLAIM
+E,3,9,Alternating may not be enough alone,PREMISE,9,CLAIM
+E,4,3,"You did many activities every day last week, so please rest well",NONE,3,CLAIM
+E,4,10,That routine may be sufficient and is supported by pacing principles,PREMISE,10,CLAIM
+E,5,1,"You stayed active and caring all week, and that truly matters to your family",NONE,1,CLAIM
+E,5,3,You showed patience with grandchildren and took quiet moments in nearby nature,NONE,3,PREMISE
+E,5,7,"These activities show steady effort, kindness, and strong ties to people around you",PREMISE,7,CLAIM
+E,6,1,"You did a lot this week, and that truly matters to your family",NONE,1,CLAIM
+E,6,6,"Group aerobics, caring for grandchildren, and your community work brought real connection and clear purpose",PREMISE,6,CLAIM
+E,7,1,"Well done this week, Kim",NONE,1,CLAIM
+E,7,3,"You kept showing up for group classes, daily walks, meditation, nature, and family time together",NONE,3,PREMISE
+E,7,9,"Overall, these activities genuinely reflected your values and directly advanced your goals without creating clear conflicts or major trade-offs",PREMISE,9,CLAIM
+E,8,1,You kept showing up for things that matter this week,NONE,1,CLAIM
+E,8,9,"Overall these actions genuinely realize your stated values, though no single activity is necessary or sufficient alone, and small trade-offs occurred",PREMISE,9,CLAIM

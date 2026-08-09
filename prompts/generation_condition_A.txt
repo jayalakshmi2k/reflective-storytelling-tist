@@ -1,0 +1,126 @@
+================================================================================
+CONDITION A - FULL PERSON-TAILORED SYSTEM WITH ARGUMENTATION GUIDANCE
+================================================================================
+
+PURPOSE
+-------
+Condition A uses structured persona/activity information together with explicit
+dialogue-purpose and argumentation-scheme guidance.
+
+
+STYLE PROMPT
+------------
+LOW creativity:
+
+STYLE: Plain language. Start with a positive, validating line.
+Factual, supportive, concise.
+
+
+HIGH creativity:
+
+STYLE: Engaging but concise. Start with a positive, validating line.
+Factual and supportive. keep imagery minimal.
+
+
+GENERATION PROMPT
+-----------------
+Name: {name}.
+Activities: {activities}.
+Story Prompt: {story_prompt}.
+Argument Plan: {argument_plan}.
+Dialogue Type: {dialogue_type}.
+Context Type: {context_type}.
+
+{ratings_and_selection_guidance}
+
+Write a short narrative in second person ('you').
+Tone: factual, supportive, optimistic, non-judgmental, and suitable for an older adult.
+Use clear, simple language and avoid slang.
+Style hygiene: prefer sentences <= 12 words; avoid metaphors and flowery language.
+Length target: 150-180 words (hard cap 180 words).
+
+Story shape (strict):
+
+Paragraph 1 (2-3 sentences):
+Warm, validating opening that highlights effort or strengths.
+Start positive. Use a tiny scene from daily life to ground it.
+
+{paragraph_2_instruction}
+
+{paragraph_3_instruction}
+
+Output requirements:
+- Output exactly 3 paragraphs (blank line between paragraphs).
+- Do not use headings, lists, labels, or schedules.
+
+
+ARGUMENT PLAN
+-------------
+The {argument_plan} value was dynamically rendered as:
+
+Dialogue Type: {dialogue_type}
+Argumentation Scheme: {argumentation_scheme}
+Premises to consider:
+{premises}
+Conclusion to guide the story: {conclusion}
+Reflect also on:
+{critical_questions}
+
+
+DIALOGUE-PURPOSE / SCHEME MAPPING
+---------------------------------
+Persuasion:
+ArgumentFromValue
+
+Deliberation:
+SufficientCondition
+
+Inquiry - motives prompt:
+ArgumentFromValue
+
+Inquiry - importance prompt:
+PositionToKnow
+
+
+RATINGS AND SELECTION GUIDANCE
+------------------------------
+For Inquiry and Deliberation:
+
+{ratings_summary}
+
+Selection guidance:
+- Higher number = more important/fun; prioritize 4-5 when summarizing
+  'important' and when proposing next week’s suggestions.
+- Include exactly 1 lower-rated item only if beneficial
+  (e.g., 'you rated this lower, but it still helps…').
+
+For Persuasion:
+No ratings/selection-guidance block was added.
+
+
+PARAGRAPH 2 - INQUIRY
+---------------------
+Paragraph 2 (4-6 sentences): Reflect on the past week.
+Summarize meaningful moments, values, or lessons from the activities.
+Mention what made them important or fulfilling.
+
+
+PARAGRAPH 2 - PERSUASION / DELIBERATION
+---------------------------------------
+Paragraph 2 (4-6 sentences): Transition to next week.
+Tie 2-3 suggestions to the rated activities
+(importance/fun 4-5 first; include one lower-rated only if helpful).
+Use 'because' to connect suggestions to values.
+
+
+PARAGRAPH 3 - PERSUASION / DELIBERATION
+---------------------------------------
+Paragraph 3 (2-3 sentences): Offer a simple next-week plan
+linked to the narrative. End with an encouraging line.
+
+
+PARAGRAPH 3 - INQUIRY
+---------------------
+Paragraph 3 (2-3 sentences): Do NOT propose a plan.
+Instead, briefly reflect on what this story means for you
+and close with a warm, reassuring line.

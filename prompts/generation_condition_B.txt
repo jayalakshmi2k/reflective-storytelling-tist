@@ -1,0 +1,80 @@
+================================================================================
+CONDITION B - PERSON-TAILORED GENERATION WITHOUT EXPLICIT ARGUMENTATION GUIDANCE
+================================================================================
+
+PURPOSE
+-------
+Condition B uses persona/activity information and the natural-language narrative
+prompt, without explicit dialogue-type labels or argumentation-scheme guidance.
+
+
+STYLE PROMPT
+------------
+LOW creativity:
+
+STYLE: Plain language. Start with a positive, validating line.
+Factual, supportive, concise.
+
+
+HIGH creativity:
+
+STYLE: Engaging but concise. Start with a positive, validating line.
+Factual and supportive. keep imagery minimal.
+
+
+GENERATION PROMPT
+-----------------
+Name: {persona_id}
+
+Activities:
+{activities_text}
+
+Narrative Prompt:
+{topic}
+
+Write a short narrative in second person ("you").
+
+Tone:
+- Supportive
+- Factual
+- Suitable for older adults
+
+Use clear, simple language.
+Avoid slang and exaggerated imagery.
+
+Target length:
+150-180 words (maximum 180 words).
+
+Structure:
+
+Paragraph 1:
+Warm opening about the participant's activities.
+
+Paragraph 2:
+Respond naturally to the narrative prompt using the participant's activities and experiences.
+
+Paragraph 3:
+Closing reflection that reinforces purpose, meaning, or encouragement.
+
+Output requirements:
+- Exactly three paragraphs.
+- No headings.
+- No lists.
+- No labels.
+
+
+NARRATIVE PROMPTS
+-----------------
+Stories 1-2:
+Dear Coach, please, try to convince me about what activities I should do
+the coming week so that the week will become a happy week!
+
+Stories 3-4:
+What should I do/you suggest me to do, to make the coming week more
+recovering than the past week?
+
+Stories 5-6:
+Dear Coach, did I do something important the past week?
+
+Stories 7-8:
+Dear Coach, tell me how I have fulfilled my motives the past week/ month.

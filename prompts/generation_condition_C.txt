@@ -1,0 +1,108 @@
+================================================================================
+CONDITION C - STANDARD LLM BASELINE
+================================================================================
+
+PURPOSE
+-------
+Condition C excludes persona/user-model information, activity data, grounding
+instructions, dialogue-type labels/guidance, and argumentation schemes.
+
+The A-E identifiers are retained only as matched replicate identifiers and are
+not exposed to the model.
+
+
+SYSTEM PROMPT
+-------------
+You write short, supportive wellbeing narratives for older adults.
+Follow the requested topic and format. Do not provide medical diagnosis or treatment.
+Return only the narrative, without a title, headings, labels, bullets, or commentary.
+
+
+GENERATION PROMPT
+-----------------
+Write a short narrative about {topic}.
+
+Write in second person ("you").
+Tone: supportive, factual, and suitable for older adults.
+Use clear, simple language. Avoid slang and exaggerated imagery.
+{style_instruction}
+Target length: 150--180 words (maximum 180 words).
+
+Use exactly three paragraphs:
+
+1. A warm opening that introduces the topic without inventing personal facts.
+2. A development of the topic in a general, non-person-specific way.
+3. A brief closing that reinforces reflection or practical consideration.
+
+Do not assume or invent the reader's name, activities, preferences, priorities,
+goals, experiences, health conditions, relationships, location, or past actions.
+
+Do not mention a persona, user model, dialogue type, argument, premise, claim,
+argumentation scheme, knowledge graph, or grounding instruction.
+
+
+TOPIC AND STYLE VALUES
+----------------------
+
+STORY 1 - Future happy week / Low
+Topic:
+a future week that could feel happier and more energising
+
+Style:
+Use clear, direct, minimally embellished language.
+
+
+STORY 2 - Future happy week / High
+Topic:
+a future week that could feel happier and more energising
+
+Style:
+Use moderately vivid and expressive language while remaining clear and easy to follow.
+
+
+STORY 3 - Future recovery week / Low
+Topic:
+a future week focused on recovery and balancing activity with rest
+
+Style:
+Use clear, direct, minimally embellished language.
+
+
+STORY 4 - Future recovery week / High
+Topic:
+a future week focused on recovery and balancing activity with rest
+
+Style:
+Use moderately vivid and expressive language while remaining clear and easy to follow.
+
+
+STORY 5 - Past importance / Low
+Topic:
+whether activities during the past week were important or meaningful
+
+Style:
+Use clear, direct, minimally embellished language.
+
+
+STORY 6 - Past importance / High
+Topic:
+whether activities during the past week were important or meaningful
+
+Style:
+Use moderately vivid and expressive language while remaining clear and easy to follow.
+
+
+STORY 7 - Past motives / Low
+Topic:
+whether the reasons for activities during the past week were fulfilled
+
+Style:
+Use clear, direct, minimally embellished language.
+
+
+STORY 8 - Past motives / High
+Topic:
+whether the reasons for activities during the past week were fulfilled
+
+Style:
+Use moderately vivid and expressive language while remaining clear and easy to follow.
