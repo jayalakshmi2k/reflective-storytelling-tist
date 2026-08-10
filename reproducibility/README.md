@@ -1,6 +1,18 @@
 ## Reproducibility
 
-This folder contains the scripts used to reproduce the main technical analyses reported in the revised ACM TIST paper.
+This folder contains the scripts used to reproduce the main analyses reported in the revised ACM TIST paper.
+
+
+
+
+
+## Requirements
+
+Install the required Python packages using:
+
+pip install -r requirements.txt
+
+Run the commands from the main repository folder.
 
 
 
@@ -40,11 +52,19 @@ This reproduces the grounding analysis using the provided grounding assessment d
 
 
 
-## Requirements
 
-Install the required Python packages using:
 
-pip install -r requirements.txt
+Phase II questionnaire analysis
 
-Run the commands from the main repository folder.
+\-------------------------------
+
+Run:
+
+python reproducibility/phase2\_analysis.py data/phase2/phase2\_data.xlsx data/phase2/phase2\_codebook.csv
+
+This reproduces the main Phase II questionnaire results from the participant data and questionnaire codebook, including overall relevance, perceived creativity, narrative appreciation, categorical creativity ratings, participant-perceived inconsistencies, disturbance ratings, cultural relatability, and future-use intention.
+
+
+
+
 
