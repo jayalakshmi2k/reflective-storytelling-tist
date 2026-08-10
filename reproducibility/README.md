@@ -18,11 +18,7 @@ Run the commands from the main repository folder.
 
 
 
-\## Argument mining evaluation
-
-\--------------------------
-
-
+## Argument Mining evaluation
 
 Run:
 
@@ -54,9 +50,7 @@ This reproduces the grounding analysis using the provided grounding assessment d
 
 
 
-\## Phase II questionnaire analysis
-
-\-------------------------------
+## Phase II questionnaire analysis
 
 Run:
 
