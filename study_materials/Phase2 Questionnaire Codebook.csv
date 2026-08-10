@@ -1,0 +1,307 @@
+﻿Variable Name,Label,Type,Data Type,Value Codes,Missing Code
+VAR000,Age:,Numeric - Field,Numeric,none,
+VAR001,Gender:,Single-Choice - Radio Buttons,Numeric,"1 = Female
+2 = Male
+3 = Non binary",999
+VAR002,Country of residence:,Text - Field,String,none,
+VAR003,Size of local community:,Single-Choice - Radio Buttons,Numeric,"1 = Village up to 500 inhabitants
+2 = Town between 500 - 1.000 inhabitants
+3 = Town between 1.000 - 10.000 inhabitants
+4 = Town with more than 10.000 inhabitants",999
+VAR004,Living situation:,Single-Choice - Radio Buttons,Numeric,"1 = Alone
+2 = With partner
+3 = With other
+4 = Prefer not to answer",999
+VAR005,How important is it to you to have frequent contact with close friends and family?,Numeric - Slider,Numeric,none,
+VAR006,To what extent are you able to have contact with close friends and family?,Numeric - Slider,Numeric,none,
+VAR007,How important is it for you to increase your level of social activity?,Numeric - Slider,Numeric,none,
+VAR008,How prepared are you now to make a change regarding social activities?,Numeric - Slider,Numeric,none,
+VAR009,How confident are you that you would be able to make a change regarding social activity?,Numeric - Slider,Numeric,none,
+VAR010,How important is it to you to exercise and/or do other physical activities regularly?,Numeric - Slider,Numeric,none,
+VAR011,"How satisfied are you with the extent you exercise, or are physically active?",Numeric - Slider,Numeric,none,
+VAR012,How important is it for you to increase your level of physical activity?,Numeric - Slider,Numeric,none,
+VAR013,How prepared are you now to change physical activity?,Numeric - Slider,Numeric,none,
+VAR014,How confident are you that you would be able to make a change regarding physical activity?,Numeric - Slider,Numeric,none,
+VAR015,What are your plans for changing your physical activity? Choose the statement below that best matches your plans.,Single-Choice - Radio Buttons,Numeric,"1 = I have always been regularly physically active and have no intention of stopping
+2 = I will probably reduce my physical activity in the next 3 months
+3 = I have no plans to become more physically active in the next 3 months
+4 = I intend to become more physically active in the next 3 months, but I am unlikely to make the change in the next 4 weeks
+5 = I have plans to become more physically active in the next 4 weeks",999
+VAR016,How important is it for you to find time for recovery and increasing energy?,Numeric - Slider,Numeric,none,
+VAR017,To what extent do you have a good/healthy proportion of activities ongoing at the moment?,Numeric - Slider,Numeric,none,
+VAR018,"How important is it to you to reduce worries, anxiety and/or stress?",Numeric - Slider,Numeric,none,
+VAR019,How satisfied are you with your emotional wellbeing?,Numeric - Slider,Numeric,none,
+VAR020,How important is it for you to embed more recovery activities?,Numeric - Slider,Numeric,none,
+VAR021,How prepared are you now to make a change regarding recovery activities?,Numeric - Slider,Numeric,none,
+VAR022,How confident are you that you would be able to make that change?,Numeric - Slider,Numeric,none,
+VAR023,How important is it to you to have fun and be entertained?,Numeric - Slider,Numeric,none,
+VAR024,"Five personas have been composed with a few activities in each of the domains physical activity, social activity and recovery activity, which they aim to do to change their lifestyle habits to improve health.Please, select one of these that you feel most alike yourself regarding interests and could identify yourself with. Choose the one that fits the best even though all activities might not be relevant.",Single-Choice - Radio Buttons,Numeric,"1 = A
+2 = B
+3 = C
+4 = D
+5 = E",999
+VAR025,How similar is the selected persona and its activities to what you would choose to do and the motives for this?,Numeric - Slider,Numeric,none,
+VAR026,What is the main difference(s) between you and the persona you selected?,Text - Memo,String,none,
+VAR027,Is there some activity and/or motive you would have liked to add to your selected persona?,Text - Memo,String,none,
+VAR028_1,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It highlighted important things I did the past week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR028_2,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave a helpful summary of how I accomplished something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR028_3,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave me inspiration about what to do next week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR028_4,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It helped me find more reasons/motives for doing something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR028_5,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It convinced me to consider doing something I hadn’t planned",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR028_6,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It changed my mind about an activity",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR028_7,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - None of the above",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR029,How much did you like the narrative?,Numeric - Slider,Numeric,none,
+VAR030,How creative was the narrative?,Numeric - Slider,Numeric,none,
+VAR031,Was the level of creativity:,Single-Choice - Radio Buttons,Numeric,"1 = appealing
+2 = appropriate
+3 = too much
+4 = too little",999
+VAR032,Would you like more narratives like this?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = Maybe
+3 = No",999
+VAR033,Did you notice any issues or inconsistencies compared to the persona that you selected?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = No
+3 = Not sure",999
+VAR034,"If yes or maybe, briefly state where, or copy paste from the narrative:",Text - Memo,String,none,
+VAR035,How much did the issues bother you?,Numeric - Slider,Numeric,none,
+VAR036,Which persona did you select?,Single-Choice - Radio Buttons,Numeric,"5 = Persona A
+1 = Persona B
+4 = Persona C
+2 = Persona D
+3 = Persona E",999
+VAR037,Describe one inconsistency/issue and how it affected you:,Text - Memo,String,none,
+VAR038,What are your general reflections after reading the narrative?,Text - Memo,String,none,
+VAR039_1,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It highlighted important things I did the past week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR039_2,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave a helpful summary of how I accomplished something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR039_3,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave me inspiration about what to do next week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR039_4,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It helped me find more reasons/motives for doing something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR039_5,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It convinced me to consider doing something I hadn’t planned",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR039_6,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It changed my mind about an activity",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR039_7,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - None of the above",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR040,How much did you like the narrative?,Numeric - Slider,Numeric,none,
+VAR041,How creative was the narrative?,Numeric - Slider,Numeric,none,
+VAR042,Was the level of creativity:,Single-Choice - Radio Buttons,Numeric,"1 = appealing
+2 = appropriate
+3 = too much
+4 = too little",999
+VAR043,Would you like more narratives like this?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = Maybe
+3 = No",999
+VAR044,Did you notice any issues or inconsistencies compared to the persona that you selected?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = No
+3 = Not sure",999
+VAR045,"If yes or not sure, briefly state where, or copy paste from the narrative:",Text - Memo,String,none,
+VAR046,How much did the issues bother you?,Numeric - Slider,Numeric,none,
+VAR047,Describe one inconsistency/issue and how it affected you:,Text - Memo,String,none,
+VAR048,What are your general reflections after reading the narrative?,Text - Memo,String,none,
+VAR049_1,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It highlighted important things I did the past week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR049_2,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave a helpful summary of how I accomplished something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR049_3,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave me inspiration about what to do next week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR049_4,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It helped me find more reasons/motives for doing something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR049_5,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It convinced me to consider doing something I hadn’t planned",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR049_6,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It changed my mind about an activity",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR049_7,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - None of the above",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR050,How much did you like the narrative?,Numeric - Slider,Numeric,none,
+VAR051,How creative was the narrative?,Numeric - Slider,Numeric,none,
+VAR052,Was the level of creativity:,Single-Choice - Radio Buttons,Numeric,"1 = appealing
+2 = appropriate
+3 = too much
+4 = too little",999
+VAR053,Would you like more narratives like this?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = Maybe
+3 = No",999
+VAR054,Which persona did you not select?,Single-Choice - Radio Buttons,Numeric,"1 = Persona B
+2 = Persona D",999
+VAR055,Did you notice any issues or inconsistencies compared to the persona that you selected?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = No
+3 = Not sure",999
+VAR056,"If yes or not sure, briefly state where, or copy paste from the narrative:",Text - Memo,String,none,
+VAR057,How much did the issues bother you?,Numeric - Slider,Numeric,none,
+VAR058,Describe one inconsistency/issue and how it affected you:,Text - Memo,String,none,
+VAR059,What are your general reflections after reading the narrative?,Text - Memo,String,none,
+VAR060_1,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It highlighted important things I did the past week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR060_2,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave a helpful summary of how I accomplished something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR060_3,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave me inspiration about what to do next week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR060_4,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It helped me find more reasons/motives for doing something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR060_5,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It convinced me to consider doing something I hadn’t planned",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR060_6,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It changed my mind about an activity",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR060_7,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - None of the above",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR061,How much did you like the narrative?,Numeric - Slider,Numeric,none,
+VAR062,How creative was the narrative?,Numeric - Slider,Numeric,none,
+VAR063,Was the level of creativity:,Single-Choice - Radio Buttons,Numeric,"1 = appealing
+2 = appropriate
+3 = too much
+4 = too little",999
+VAR064,Would you like more narrative like this?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = Maybe
+3 = No",999
+VAR065,Did you notice any issues or inconsistencies compared to the persona that you selected?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = No
+3 = Not sure",999
+VAR066,"If yes or not sure, briefly state where, or copy paste from the narrative:",Text - Memo,String,none,
+VAR067,How much did the issues bother you?,Numeric - Slider,Numeric,none,
+VAR068,Describe one inconsistency/issue and how it affected you:,Text - Memo,String,none,
+VAR069,What are your general reflections after reading the narrative?,Text - Memo,String,none,
+VAR070_1,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It highlighted important things I did the past week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR070_2,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave a helpful summary of how I accomplished something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR070_3,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave me inspiration about what to do next week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR070_4,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It helped me find more reasons/motives for doing something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR070_5,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It convinced me to consider doing something I hadn’t planned",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR070_6,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It changed my mind about an activity",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR070_7,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - None of the above",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR071,How much did you like the narrative?,Numeric - Slider,Numeric,none,
+VAR072,How creative was the narrative?,Numeric - Slider,Numeric,none,
+VAR073,Was the level of creativity:,Single-Choice - Radio Buttons,Numeric,"1 = appealing
+2 = appropriate
+3 = too much
+4 = too little",999
+VAR074,Would you like more narratives like this?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = Maybe
+3 = No",999
+VAR075,Did you notice any issues or inconsistencies compared to the persona that you selected?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = No
+3 = Not sure",999
+VAR076,"If yes or not sure, briefly state where, or copy paste from the narrative:",Text - Memo,String,none,
+VAR077,How much did the issues bother you?,Numeric - Slider,Numeric,none,
+VAR078,Describe one inconsistency/issue and how it affected you:,Text - Memo,String,none,
+VAR079,Which persona did you not select?,Single-Choice - Radio Buttons,Numeric,"1 = Persona E
+2 = Persona G",999
+VAR080,What are your general reflections after reading the narrative?,Text - Memo,String,none,
+VAR081_1,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It highlighted important things I did the past week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR081_2,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave a helpful summary of how I accomplished something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR081_3,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave me inspiration about what to do next week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR081_4,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It helped me find more reasons/motives for doing something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR081_5,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It convinced me to consider doing something I hadn’t planned",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR081_6,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It changed my mind about an activity",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR081_7,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - None of the above",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR082,How much did you like the narrative?,Numeric - Slider,Numeric,none,
+VAR083,How creative was the narrative?,Numeric - Slider,Numeric,none,
+VAR084,Was the level of creativity:,Single-Choice - Radio Buttons,Numeric,"1 = appealing
+2 = appropriate
+3 = too much
+4 = too little",999
+VAR085,Would you like more narratives like this?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = Maybe
+3 = No",999
+VAR086,Did you notice any issues or inconsistencies compared to the persona that you selected?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = No
+3 = Not sure",999
+VAR087,"If yes or not sure, briefly state where, or copy paste from the narrative:",Text - Memo,String,none,
+VAR088,How much did the issues bother you?,Numeric - Slider,Numeric,none,
+VAR089,Describe one inconsistency/issue and how it affected you:,Text - Memo,String,none,
+VAR090,What are your general reflections after reading the narrative?,Text - Memo,String,none,
+VAR091_1,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It highlighted important things I did the past week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR091_2,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave a helpful summary of how I accomplished something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR091_3,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave me inspiration about what to do next week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR091_4,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It helped me find more reasons/motives for doing something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR091_5,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It convinced me to consider doing something I hadn’t planned",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR091_6,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It changed my mind about an activity",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR091_7,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - None of the above",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR092,How much did you like the narrative?,Numeric - Slider,Numeric,none,
+VAR093,Which persona did you select?,Single-Choice - Radio Buttons,Numeric,"1 = Persona K
+2 = Persona P
+3 = Neither P nor K",999
+VAR094,How creative was the narrative?,Numeric - Slider,Numeric,none,
+VAR095,Was the level of creativity:,Single-Choice - Radio Buttons,Numeric,"1 = appealing
+2 = appropriate
+3 = too much
+4 = too little",999
+VAR096,Would you like more narrative like this?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = Maybe
+3 = No",999
+VAR097,Did you notice any issues or inconsistencies compared to the persona that you selected?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = No
+3 = Not sure",999
+VAR098,"If yes or maybe, briefly state where, or copy paste from the narrative:",Text - Memo,String,none,
+VAR099,How much did the issues bother you?,Numeric - Slider,Numeric,none,
+VAR100,Describe one inconsistency/issue and how it affected you:,Text - Memo,String,none,
+VAR101,What are your general reflections after reading the narrative?,Text - Memo,String,none,
+VAR102_1,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It highlighted important things I did the past week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR102_2,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave a helpful summary of how I accomplished something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR102_3,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It gave me inspiration about what to do next week",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR102_4,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It helped me find more reasons/motives for doing something",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR102_5,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It convinced me to consider doing something I hadn’t planned",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR102_6,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - It changed my mind about an activity",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR102_7,"If you imagine that this narrative was based on activities that you had chosen, could this narrative have helped you in any of these ways? - None of the above",Multiple-Choice - Check Boxes,Numeric,"1 = Ja
+2 = Nej",999
+VAR103,How much did you like the narrative?,Numeric - Slider,Numeric,none,
+VAR104,How creative was the narrative?,Numeric - Slider,Numeric,none,
+VAR105,Was the level of creativity:,Single-Choice - Radio Buttons,Numeric,"1 = appealing
+2 = appropriate
+3 = too much
+4 = too little",999
+VAR106,Would you like more narratives like this?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = Maybe
+3 = No",999
+VAR107,Did you notice any issues or inconsistencies compared to the persona that you selected?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = No
+3 = Not sure",999
+VAR108,"If yes or not sure, briefly state where, or copy paste from the narrative:",Text - Memo,String,none,
+VAR109,How much did the issues bother you?,Numeric - Slider,Numeric,none,
+VAR110,Describe one inconsistency/issue and how it affected you:,Text - Memo,String,none,
+VAR111,What are your general reflections after reading the narrative?,Text - Memo,String,none,
+VAR112,How did you experience the narratives overall?,Text - Memo,String,none,
+VAR113,How relevant were these narratives to you?,Numeric - Slider,Numeric,none,
+VAR114,Did the narratives feel culturally relatable to you?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = Maybe
+3 = No",999
+VAR115,"Please, motivate your answer:",Text - Memo,String,none,
+VAR116,Would you like to use a such a functionality in an app in the future?,Single-Choice - Radio Buttons,Numeric,"1 = Yes
+2 = Maybe
+3 = No",999
+VAR117,In what way would you like to use this kind of narration/storytelling about your past and potential future activities? ,Text - Memo,String,none,
