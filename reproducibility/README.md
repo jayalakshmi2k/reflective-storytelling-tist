@@ -18,7 +18,7 @@ Run the commands from the main repository folder.
 
 
 
-Argument mining evaluation
+\# Argument mining evaluation
 
 \--------------------------
 
@@ -54,7 +54,7 @@ This reproduces the grounding analysis using the provided grounding assessment d
 
 
 
-Phase II questionnaire analysis
+\# Phase II questionnaire analysis
 
 \-------------------------------
 
@@ -63,8 +63,4 @@ Run:
 python reproducibility/phase2\_analysis.py data/phase2/phase2\_data.xlsx data/phase2/phase2\_codebook.csv
 
 This reproduces the main Phase II questionnaire results from the participant data and questionnaire codebook, including overall relevance, perceived creativity, narrative appreciation, categorical creativity ratings, participant-perceived inconsistencies, disturbance ratings, cultural relatability, and future-use intention.
-
-
-
-
 
