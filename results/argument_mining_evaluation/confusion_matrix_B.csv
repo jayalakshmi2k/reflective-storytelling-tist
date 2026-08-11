@@ -1,0 +1,4 @@
+gold_label,pred_CLAIM,pred_PREMISE,pred_NONE
+gold_CLAIM,171,26,4
+gold_PREMISE,27,20,2
+gold_NONE,168,11,7

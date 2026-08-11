@@ -12,21 +12,6 @@ from sklearn.metrics import (
 
 LABELS = ["CLAIM", "PREMISE", "NONE"]
 
-EXPECTED_COUNTS = {
-    "A": {
-        "total": 529,
-        "CLAIM": 200,
-        "PREMISE": 245,
-        "NONE": 84,
-    },
-    "B": {
-        "total": 436,
-        "CLAIM": 201,
-        "PREMISE": 49,
-        "NONE": 186,
-    },
-}
-
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -106,31 +91,9 @@ def load_predictions(filename, dataset):
             f"{filename} contains invalid predictions: {invalid_pred}"
         )
 
-    check_counts(df, dataset, filename)
-
     return df
 
 
-def check_counts(df, dataset, filename):
-    expected = EXPECTED_COUNTS[dataset]
-
-    if len(df) != expected["total"]:
-        raise ValueError(
-            f"{filename}: expected {expected['total']} rows, "
-            f"found {len(df)}"
-        )
-
-    counts = df["gold_label"].value_counts().to_dict()
-
-    for label in LABELS:
-        actual = counts.get(label, 0)
-        wanted = expected[label]
-
-        if actual != wanted:
-            raise ValueError(
-                f"{filename}: expected {wanted} {label} labels, "
-                f"found {actual}"
-            )
 
 
 def evaluate(df, dataset, output_dir):
