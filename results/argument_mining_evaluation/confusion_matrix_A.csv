@@ -1,4 +1,0 @@
-gold_label,pred_CLAIM,pred_PREMISE,pred_NONE
-gold_CLAIM,198,2,0
-gold_PREMISE,47,146,52
-gold_NONE,48,11,25
