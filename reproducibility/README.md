@@ -52,11 +52,9 @@ This reproduces the grounding analysis using the provided grounding assessment d
 
 ## Phase II questionnaire analysis
 
-Run:
+phase2\_analysis.py and phase2\_inconsistency\_analysis.py contains the analysis procedures used for the Phase II questionnaire and inconsistency analyses. The participant-level input dataset is not publicly distributed to protect participant privacy; therefore, this analysis cannot be independently rerun from the public repository alone.
 
-python reproducibility/phase2\_analysis.py data/phase2/phase2\_data.xlsx data/phase2/phase2\_codebook.csv
 
-python reproducibility/phase2\_inconsistency\_analysis.py data/phase2/phase2\_codebook.csv data/phase2/phase2\_data.xlsx
 
 This reproduces the main Phase II questionnaire results from the participant data and questionnaire codebook, including overall relevance, perceived creativity, narrative appreciation, categorical creativity ratings, participant-perceived inconsistencies, disturbance ratings, cultural relatability, and future-use intention.
 
